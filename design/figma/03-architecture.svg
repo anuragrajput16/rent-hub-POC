@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400">
+<rect x="0" y="0" width="1600" height="1400" fill="#E7EDE3"/>
+<text x="64" y="72" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">RENTEASE · PROJECT GUIDE</text>
+<text x="64" y="122" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="44" font-weight="700" fill="#18241E" text-anchor="start">How the code is put together</text>
+<text x="64" y="158" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">A one-way data path. Components read through hooks and write through a promise API, so a real backend can replace src/api/ without touching a single screen.</text>
+<text x="64" y="250" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">The data path</text>
+<rect x="64" y="279" width="1472" height="330" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64" y="276" width="1472" height="330" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="96" y="346" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">READ</text>
+<rect x="190" y="306" width="290" height="72" rx="12" fill="#1E4634"/>
+<text x="208" y="335" font-family="Inter, sans-serif" font-size="16" font-weight="650" fill="#FFFFFF" text-anchor="start">Component</text>
+<text x="208" y="358" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#B9CDB6" text-anchor="start">pages/ · components/</text>
+<path d="M484 342 L520 342" stroke="#1E4634" stroke-width="1.8" fill="none"/>
+<path d="M520 342 L511.0 346.3 L511.0 337.7 Z" fill="#1E4634"/>
+<rect x="524" y="306" width="290" height="72" rx="12" fill="#EAF1EA" stroke="#1E4634" stroke-width="1"/>
+<text x="542" y="335" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#18241E" text-anchor="start">src/api/hooks.ts</text>
+<text x="542" y="358" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">useDb(select)</text>
+<path d="M818 342 L854 342" stroke="#1E4634" stroke-width="1.8" fill="none"/>
+<path d="M854 342 L845.0 346.3 L845.0 337.7 Z" fill="#1E4634"/>
+<rect x="858" y="306" width="290" height="72" rx="12" fill="#EAF1EA" stroke="#1E4634" stroke-width="1"/>
+<text x="876" y="335" font-family="Inter, sans-serif" font-size="16" font-weight="650" fill="#18241E" text-anchor="start">Store snapshot</text>
+<text x="876" y="358" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">the in-memory DB</text>
+<text x="96" y="506" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">WRITE</text>
+<rect x="190" y="466" width="290" height="72" rx="12" fill="#1E4634"/>
+<text x="208" y="495" font-family="Inter, sans-serif" font-size="16" font-weight="650" fill="#FFFFFF" text-anchor="start">Component</text>
+<text x="208" y="518" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#B9CDB6" text-anchor="start">button, form submit</text>
+<path d="M484 502 L520 502" stroke="#1E4634" stroke-width="1.8" fill="none"/>
+<path d="M520 502 L511.0 506.3 L511.0 497.7 Z" fill="#1E4634"/>
+<rect x="524" y="466" width="290" height="72" rx="12" fill="#EAF1EA" stroke="#1E4634" stroke-width="1"/>
+<text x="542" y="495" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#18241E" text-anchor="start">src/api/index.ts</text>
+<text x="542" y="518" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">validate · delay() · throw readable Error</text>
+<path d="M818 502 L854 502" stroke="#1E4634" stroke-width="1.8" fill="none"/>
+<path d="M854 502 L845.0 506.3 L845.0 497.7 Z" fill="#1E4634"/>
+<rect x="858" y="466" width="290" height="72" rx="12" fill="#EAF1EA" stroke="#1E4634" stroke-width="1"/>
+<text x="876" y="495" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#18241E" text-anchor="start">mutate(draft)</text>
+<text x="876" y="518" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">src/api/store.ts</text>
+<path d="M1152 502 L1188 502" stroke="#1E4634" stroke-width="1.8" fill="none"/>
+<path d="M1188 502 L1179.0 506.3 L1179.0 497.7 Z" fill="#1E4634"/>
+<rect x="1192" y="466" width="290" height="72" rx="12" fill="#EAF1EA" stroke="#1E4634" stroke-width="1"/>
+<text x="1210" y="495" font-family="Inter, sans-serif" font-size="16" font-weight="650" fill="#18241E" text-anchor="start">localStorage</text>
+<text x="1210" y="518" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">rentease.db.v1 · notify subscribers</text>
+<path d="M1332 462 L998 378" stroke="#CE8A22" stroke-width="1.6" fill="none" stroke-dasharray="5 4"/>
+<path d="M998 378 L1007.8 376.0 L1005.7 384.4 Z" fill="#CE8A22"/>
+<text x="1033" y="430" font-family="Inter, sans-serif" font-size="12.5" font-weight="600" fill="#CE8A22" text-anchor="start">subscribers re-render</text>
+<text x="96" y="574" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#5C6D62" text-anchor="start">Rule: components never import store.ts and never touch localStorage. Validation lives in the API method; the component catches the Error and shows it with ErrorNote or a toast.</text>
+<text x="64" y="668" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">The mocked backend: src/api/index.ts</text>
+<rect x="64.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="80.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">auth</text>
+<text x="80.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">login, register, switch role,</text>
+<text x="80.0" y="766" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">upgrade</text>
+<rect x="312.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="312.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="328.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">listings</text>
+<text x="328.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">units and properties</text>
+<rect x="560.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="560.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="576.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">requests</text>
+<text x="576.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">tours and bookings, accept or</text>
+<text x="576.0" y="766" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">decline</text>
+<rect x="808.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="808.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="824.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">bookings</text>
+<text x="824.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">leases and pay rent</text>
+<rect x="1056.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="1056.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1072.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">bills</text>
+<text x="1072.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">electricity, water, society,</text>
+<text x="1072.0" y="766" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">internet</text>
+<rect x="1304.0" y="697" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="1304.0" y="694" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1320.0" y="726" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">wallet</text>
+<text x="1320.0" y="749" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">ledger and withdraw</text>
+<rect x="64.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="80.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">rewards</text>
+<text x="80.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">points, cashback, coins, perks</text>
+<rect x="312.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="312.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="328.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">shop</text>
+<text x="328.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">furniture and décor catalogue</text>
+<rect x="560.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="560.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="576.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">cart</text>
+<text x="576.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">lines, quantities, checkout</text>
+<rect x="808.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="808.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="824.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">services</text>
+<text x="824.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">pros and service requests</text>
+<rect x="1056.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="1056.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1072.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">support</text>
+<text x="1072.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">tickets and desk replies</text>
+<rect x="1304.0" y="789" width="232.0" height="78" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="1304.0" y="786" width="232.0" height="78" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1320.0" y="818" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="650" fill="#1E4634" text-anchor="start">notifications</text>
+<text x="1320.0" y="841" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">the bell, mark as read</text>
+<text x="64" y="918" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">One object in localStorage</text>
+<rect x="64" y="944" width="59.699999999999996" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="93.85" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">users</text>
+<rect x="133.7" y="944" width="97.39999999999999" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="182.39999999999998" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">properties</text>
+<rect x="241.09999999999997" y="944" width="59.699999999999996" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="270.95" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">units</text>
+<rect x="310.79999999999995" y="944" width="82.32" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="351.9599999999999" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">requests</text>
+<rect x="403.11999999999995" y="944" width="82.32" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="444.28" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">bookings</text>
+<rect x="495.43999999999994" y="944" width="59.699999999999996" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="525.29" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">bills</text>
+<rect x="565.1399999999999" y="944" width="52.16" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="591.2199999999999" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">txns</text>
+<rect x="627.2999999999998" y="944" width="104.94" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="679.7699999999999" y="960.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">rewardCards</text>
+<rect x="64" y="986" width="97.39999999999999" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="112.69999999999999" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">rewardTxns</text>
+<rect x="171.39999999999998" y="986" width="89.86" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="216.32999999999998" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">furniture</text>
+<rect x="271.26" y="986" width="59.699999999999996" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="301.11" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">decor</text>
+<rect x="340.96" y="986" width="52.16" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="367.03999999999996" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">pros</text>
+<rect x="403.12" y="986" width="135.1" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="470.67" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">serviceRequests</text>
+<rect x="548.22" y="986" width="127.55999999999999" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="612.0" y="1002.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">supportTickets</text>
+<rect x="64" y="1028" width="120.02" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="124.00999999999999" y="1044.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">notifications</text>
+<rect x="194.01999999999998" y="1028" width="52.16" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="220.09999999999997" y="1044.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">cart</text>
+<rect x="256.17999999999995" y="1028" width="67.24" height="26" rx="13.0" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="289.79999999999995" y="1044.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">orders</text>
+<text x="64" y="1098" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#5C6D62" text-anchor="start">Money is whole rupees. Dates are YYYY-MM-DD strings. Ids come from uid(&#x27;prefix&#x27;). A payment that</text>
+<text x="64" y="1119" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#5C6D62" text-anchor="start">cannot complete throws instead of part-paying, and money between two users writes a WalletTxn on</text>
+<text x="64" y="1140" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#5C6D62" text-anchor="start">both sides.</text>
+<text x="800" y="918" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Folders</text>
+<text x="800" y="950" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/api/</text>
+<text x="1010" y="950" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">store.ts persistence · index.ts the API · hooks.ts reactive reads</text>
+<path d="M800 963 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="984" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/components/</text>
+<text x="1010" y="984" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">shared pieces: FloorPlan, BedFitRoom, UnitCard, WalletCard …</text>
+<path d="M800 997 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1018" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/components/ui/</text>
+<text x="1010" y="1018" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">primitives: PageHead, Button, StatusPill, Modal, Field</text>
+<path d="M800 1031 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1052" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/context/</text>
+<text x="1010" y="1052" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">AuthContext (useAuth) and ToastContext</text>
+<path d="M800 1065 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1086" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/data/seed.ts</text>
+<text x="1010" y="1086" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">the 9-unit building, users, catalogue and pros</text>
+<path d="M800 1099 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1120" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/lib/</text>
+<text x="1010" y="1120" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">pure logic: format, rewards, planner, bedfit, photos, decoration</text>
+<path d="M800 1133 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1154" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/pages/</text>
+<text x="1010" y="1154" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">one folder per area; each page default-exports its screen</text>
+<path d="M800 1167 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="800" y="1188" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="600" fill="#1E4634" text-anchor="start">src/types.ts</text>
+<text x="1010" y="1188" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#18241E" text-anchor="start">the domain model and the DB shape</text>
+<path d="M800 1201 H1536" stroke="#D5DDCF" stroke-width="1"/>
+<text x="64" y="1262" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Adding a feature slice</text>
+<rect x="64" y="1284" width="115.6" height="44" rx="10" fill="#1E4634" stroke="#CBD8C6" stroke-width="1"/>
+<text x="78" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">1</text>
+<text x="94" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="start">types.ts</text>
+<path d="M182.6 1306 L200.6 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M200.6 1306 L191.6 1310.3 L191.6 1301.7 Z" fill="#5C6D62"/>
+<rect x="203.6" y="1284" width="148.39999999999998" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="217.6" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">2</text>
+<text x="233.6" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">data/seed.ts</text>
+<path d="M355.0 1306 L373.0 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M373.0 1306 L364.0 1310.3 L364.0 1301.7 Z" fill="#5C6D62"/>
+<rect x="376.0" y="1284" width="148.39999999999998" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="390.0" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">3</text>
+<text x="406.0" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">api/index.ts</text>
+<path d="M527.4 1306 L545.4 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M545.4 1306 L536.4 1310.3 L536.4 1301.7 Z" fill="#5C6D62"/>
+<rect x="548.4" y="1284" width="148.39999999999998" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="562.4" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">4</text>
+<text x="578.4" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">api/hooks.ts</text>
+<path d="M699.8 1306 L717.8 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M717.8 1306 L708.8 1310.3 L708.8 1301.7 Z" fill="#5C6D62"/>
+<rect x="720.8" y="1284" width="238.6" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="734.8" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">5</text>
+<text x="750.8" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">pages/&lt;area&gt;/&lt;Page&gt;.tsx</text>
+<path d="M962.4 1306 L980.4 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M980.4 1306 L971.4 1310.3 L971.4 1301.7 Z" fill="#5C6D62"/>
+<rect x="983.4" y="1284" width="156.6" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="997.4" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">6</text>
+<text x="1013.4" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">App.tsx route</text>
+<path d="M1143.0 1306 L1161.0 1306" stroke="#5C6D62" stroke-width="1.4" fill="none"/>
+<path d="M1161.0 1306 L1152.0 1310.3 L1152.0 1301.7 Z" fill="#5C6D62"/>
+<rect x="1164.0" y="1284" width="140.2" height="44" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="1178.0" y="1311" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start">7</text>
+<text x="1194.0" y="1311" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#18241E" text-anchor="start">Sidebar.tsx</text>
+<text x="64" y="1360" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#B15A2B" text-anchor="start">Skipping the seed entry crashes users who already have a saved DB — load() spreads a fresh seed under it.</text>
+</svg>

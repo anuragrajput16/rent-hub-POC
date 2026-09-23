@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180">
+<rect x="0" y="0" width="1600" height="1180" fill="#E7EDE3"/>
+<text x="64" y="72" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">RENTEASE · PROJECT GUIDE</text>
+<text x="64" y="122" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="44" font-weight="700" fill="#18241E" text-anchor="start">What RentEase is</text>
+<text x="64" y="158" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">An India-focused rental platform, built as a clickable proof of concept. Owners list homes, renters find, tour and rent them, and everyone can set the home up through a</text>
+<text x="64" y="184" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">marketplace on top of the rental flow. Everything runs in the browser; the backend is mocked.</text>
+<text x="64" y="250" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Three roles, three demo accounts</text>
+<text x="64" y="278" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#5C6D62" text-anchor="start">Any password works. The role pill in the top bar hops between these accounts instantly.</text>
+<rect x="64.0" y="307" width="474.6666666666667" height="400" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64.0" y="304" width="474.6666666666667" height="400" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="64.0" y="304" width="474.6666666666667" height="8" rx="4" fill="#1E4634"/>
+<rect x="88.0" y="332" width="59.699999999999996" height="26" rx="13.0" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="117.85" y="348.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">Owner</text>
+<text x="88.0" y="396" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Ramesh Kulkarni</text>
+<text x="88.0" y="420" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#1E4634" text-anchor="start">ramesh@rentease.test</text>
+<text x="88.0" y="448" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#5C6D62" text-anchor="start">9 units in Sunrise Residency · ₹48,500 wallet · Gold rewards</text>
+<text x="88.0" y="494" font-family="Inter, sans-serif" font-size="11.5" font-weight="700" fill="#5C6D62" text-anchor="start" letter-spacing="1.2">CAN</text>
+<circle cx="92.0" cy="515.215" r="3" fill="#1E4634"/>
+<text x="104.0" y="520" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">List a unit with real photo upload and a live</text>
+<text x="104.0" y="542" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">renter-side preview</text>
+<circle cx="92.0" cy="565.215" r="3" fill="#1E4634"/>
+<text x="104.0" y="570" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Accept or decline tour and booking requests</text>
+<circle cx="92.0" cy="593.215" r="3" fill="#1E4634"/>
+<text x="104.0" y="598" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Collect rent into the rent wallet, with receipts</text>
+<circle cx="92.0" cy="621.215" r="3" fill="#1E4634"/>
+<text x="104.0" y="626" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Earn rewards on rent received and tenure milestones</text>
+<circle cx="92.0" cy="649.215" r="3" fill="#1E4634"/>
+<text x="104.0" y="654" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Shop furniture and décor, book home services</text>
+<rect x="562.6666666666667" y="307" width="474.6666666666667" height="400" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="562.6666666666667" y="304" width="474.6666666666667" height="400" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="562.6666666666667" y="304" width="474.6666666666667" height="8" rx="4" fill="#CE8A22"/>
+<rect x="586.6666666666667" y="332" width="67.24" height="26" rx="13.0" fill="#F6E7C7" stroke="#F6E7C7" stroke-width="1"/>
+<text x="620.2866666666667" y="348.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#CE8A22" text-anchor="middle">Renter</text>
+<text x="586.6666666666667" y="396" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Priya Sharma</text>
+<text x="586.6666666666667" y="420" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#1E4634" text-anchor="start">priya@rentease.test</text>
+<text x="586.6666666666667" y="448" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#5C6D62" text-anchor="start">Active rental in Unit 103 · rent due · Silver rewards</text>
+<text x="586.6666666666667" y="494" font-family="Inter, sans-serif" font-size="11.5" font-weight="700" fill="#5C6D62" text-anchor="start" letter-spacing="1.2">CAN</text>
+<circle cx="590.6666666666667" cy="515.215" r="3" fill="#CE8A22"/>
+<text x="602.6666666666667" y="520" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Search and filter homes, open a listing</text>
+<circle cx="590.6666666666667" cy="543.215" r="3" fill="#CE8A22"/>
+<text x="602.6666666666667" y="548" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Book a tour, or book the home outright</text>
+<circle cx="590.6666666666667" cy="571.215" r="3" fill="#CE8A22"/>
+<text x="602.6666666666667" y="576" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Pay rent and electricity, water and society bills from</text>
+<text x="602.6666666666667" y="598" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">the wallet</text>
+<circle cx="590.6666666666667" cy="621.215" r="3" fill="#CE8A22"/>
+<text x="602.6666666666667" y="626" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Use the layout planner and rent furniture for the home</text>
+<circle cx="590.6666666666667" cy="649.215" r="3" fill="#CE8A22"/>
+<text x="602.6666666666667" y="654" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Raise a help ticket and track it to resolved</text>
+<rect x="1061.3333333333335" y="307" width="474.6666666666667" height="400" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="1061.3333333333335" y="304" width="474.6666666666667" height="400" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="1061.3333333333335" y="304" width="474.6666666666667" height="8" rx="4" fill="#B15A2B"/>
+<rect x="1085.3333333333335" y="332" width="135.1" height="26" rx="13.0" fill="#F7E4D6" stroke="#F7E4D6" stroke-width="1"/>
+<text x="1152.8833333333334" y="348.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#B15A2B" text-anchor="middle">Guest / shopper</text>
+<text x="1085.3333333333335" y="396" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Aditya Rao</text>
+<text x="1085.3333333333335" y="420" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#1E4634" text-anchor="start">aditya@rentease.test</text>
+<text x="1085.3333333333335" y="448" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#5C6D62" text-anchor="start">Marketplace only · Bronze rewards</text>
+<text x="1085.3333333333335" y="494" font-family="Inter, sans-serif" font-size="11.5" font-weight="700" fill="#5C6D62" text-anchor="start" letter-spacing="1.2">CAN</text>
+<circle cx="1089.3333333333335" cy="515.215" r="3" fill="#B15A2B"/>
+<text x="1101.3333333333335" y="520" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Browse homes without signing a lease</text>
+<circle cx="1089.3333333333335" cy="543.215" r="3" fill="#B15A2B"/>
+<text x="1101.3333333333335" y="548" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Shop furniture, festival décor and decoration kits</text>
+<circle cx="1089.3333333333335" cy="571.215" r="3" fill="#B15A2B"/>
+<text x="1101.3333333333335" y="576" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Book a plumber, electrician or construction pro</text>
+<circle cx="1089.3333333333335" cy="599.215" r="3" fill="#B15A2B"/>
+<text x="1101.3333333333335" y="604" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Use the layout planner</text>
+<circle cx="1089.3333333333335" cy="627.215" r="3" fill="#B15A2B"/>
+<text x="1101.3333333333335" y="632" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Upgrade to renter or owner at /upgrade when they try a</text>
+<text x="1101.3333333333335" y="654" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">renter or owner action</text>
+<text x="64" y="766" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">What is real and what is mocked</text>
+<rect x="64" y="793" width="724.0" height="300" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64" y="790" width="724.0" height="300" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="88" y="810" width="263.28" height="26" rx="13.0" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="219.64" y="826.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#1E4634" text-anchor="middle">Works end to end, in the browser</text>
+<circle cx="92" cy="861.215" r="3" fill="#1E4634"/>
+<text x="104" y="866" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Listings, tours, bookings and the owner request queue</text>
+<circle cx="92" cy="889.215" r="3" fill="#1E4634"/>
+<text x="104" y="894" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Wallet ledger written on both sides of every payment</text>
+<circle cx="92" cy="917.215" r="3" fill="#1E4634"/>
+<text x="104" y="922" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Rewards arithmetic: points, cashback, tiers and tenure coins</text>
+<circle cx="92" cy="945.215" r="3" fill="#1E4634"/>
+<text x="104" y="950" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Cart, checkout and order history; notifications</text>
+<circle cx="92" cy="973.215" r="3" fill="#1E4634"/>
+<text x="104" y="978" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Photo upload, scaled and compressed before it is stored</text>
+<circle cx="92" cy="1001.215" r="3" fill="#1E4634"/>
+<text x="104" y="1006" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Bed placement rules in the layout planner</text>
+<rect x="812.0" y="793" width="724.0" height="300" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="812.0" y="790" width="724.0" height="300" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="836.0" y="810" width="248.2" height="26" rx="13.0" fill="#F7E4D6" stroke="#F7E4D6" stroke-width="1"/>
+<text x="960.1" y="826.5" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#B15A2B" text-anchor="middle">Mocked, and the screen says so</text>
+<circle cx="840.0" cy="861.215" r="3" fill="#B15A2B"/>
+<text x="852.0" y="866" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Payments: a success modal and wallet numbers, no money moves</text>
+<circle cx="840.0" cy="889.215" r="3" fill="#B15A2B"/>
+<text x="852.0" y="894" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">KYC and ownership checks: verified flags on the seed data</text>
+<circle cx="840.0" cy="917.215" r="3" fill="#B15A2B"/>
+<text x="852.0" y="922" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">AI layouts: bundles hardcoded per floor-plan type</text>
+<circle cx="840.0" cy="945.215" r="3" fill="#B15A2B"/>
+<text x="852.0" y="950" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">Utility bills, support replies and the festival calendar</text>
+<circle cx="840.0" cy="973.215" r="3" fill="#B15A2B"/>
+<text x="852.0" y="978" font-family="Inter, sans-serif" font-size="14.5" font-weight="400" fill="#18241E" text-anchor="start">No server: one JSON object in localStorage (rentease.db.v1)</text>
+<rect x="64" y="1112" width="1472" height="44" rx="10" fill="#1E4634"/>
+<text x="88" y="1140" font-family="Inter, sans-serif" font-size="14.5" font-weight="600" fill="#EAF2E7" text-anchor="start">Stack  React 19 · Vite · TypeScript · Tailwind CSS v4 · React Router v7  —  nothing else.</text>
+<text x="1512" y="1140" font-family="IBM Plex Mono, monospace" font-size="13.5" font-weight="500" fill="#CE8A22" text-anchor="end">cd rentease-poc &amp;&amp; npm run dev</text>
+</svg>

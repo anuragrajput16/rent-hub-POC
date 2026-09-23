@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<rect x="0" y="0" width="1600" height="1120" fill="#E7EDE3"/>
+<text x="64" y="72" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">RENTEASE · PROJECT GUIDE</text>
+<text x="64" y="122" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="44" font-weight="700" fill="#18241E" text-anchor="start">Look and feel</text>
+<text x="64" y="158" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">Tokens live in src/index.css under @theme (Tailwind v4). Screens are composed from the primitives in src/components/ui/. The approved visual reference is</text>
+<text x="64" y="184" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">files/RentEase_Design_TwoRoles.html.</text>
+<text x="64" y="250" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Colour tokens</text>
+<rect x="64.0" y="276" width="196.57142857142858" height="80" rx="12" fill="#E7EDE3" stroke="#D5DDCF" stroke-width="1"/>
+<text x="64.0" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">canvas</text>
+<text x="64.0" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#E7EDE3 · page ground</text>
+<rect x="276.57142857142856" y="276" width="196.57142857142858" height="80" rx="12" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="276.57142857142856" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">panel</text>
+<text x="276.57142857142856" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#FFFFFF · surfaces, .card</text>
+<rect x="489.14285714285717" y="276" width="196.57142857142858" height="80" rx="12" fill="#1E4634" stroke="#D5DDCF" stroke-width="1"/>
+<text x="489.14285714285717" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">green</text>
+<text x="489.14285714285717" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#1E4634 · brand</text>
+<rect x="701.7142857142858" y="276" width="196.57142857142858" height="80" rx="12" fill="#153726" stroke="#D5DDCF" stroke-width="1"/>
+<text x="701.7142857142858" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">green-deep</text>
+<text x="701.7142857142858" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#153726 · dark panels</text>
+<rect x="914.2857142857143" y="276" width="196.57142857142858" height="80" rx="12" fill="#EAF1EA" stroke="#D5DDCF" stroke-width="1"/>
+<text x="914.2857142857143" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">green-soft</text>
+<text x="914.2857142857143" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#EAF1EA · soft wash</text>
+<rect x="1126.857142857143" y="276" width="196.57142857142858" height="80" rx="12" fill="#CBD8C6" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1126.857142857143" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">green-line</text>
+<text x="1126.857142857143" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#CBD8C6 · soft border</text>
+<rect x="1339.4285714285716" y="276" width="196.57142857142858" height="80" rx="12" fill="#CE8A22" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1339.4285714285716" y="380" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">honey</text>
+<text x="1339.4285714285716" y="400" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#CE8A22 · accent</text>
+<rect x="64.0" y="426" width="196.57142857142858" height="80" rx="12" fill="#F6E7C7" stroke="#D5DDCF" stroke-width="1"/>
+<text x="64.0" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">honey-soft</text>
+<text x="64.0" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#F6E7C7 · accent wash</text>
+<rect x="276.57142857142856" y="426" width="196.57142857142858" height="80" rx="12" fill="#18241E" stroke="#D5DDCF" stroke-width="1"/>
+<text x="276.57142857142856" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">ink</text>
+<text x="276.57142857142856" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#18241E · text</text>
+<rect x="489.14285714285717" y="426" width="196.57142857142858" height="80" rx="12" fill="#5C6D62" stroke="#D5DDCF" stroke-width="1"/>
+<text x="489.14285714285717" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">muted</text>
+<text x="489.14285714285717" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#5C6D62 · secondary text</text>
+<rect x="701.7142857142858" y="426" width="196.57142857142858" height="80" rx="12" fill="#D5DDCF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="701.7142857142858" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">line</text>
+<text x="701.7142857142858" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#D5DDCF · hairlines</text>
+<rect x="914.2857142857143" y="426" width="196.57142857142858" height="80" rx="12" fill="#B15A2B" stroke="#D5DDCF" stroke-width="1"/>
+<text x="914.2857142857143" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">rented</text>
+<text x="914.2857142857143" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#B15A2B · let / occupied</text>
+<rect x="1126.857142857143" y="426" width="196.57142857142858" height="80" rx="12" fill="#F7E4D6" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1126.857142857143" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">rented-soft</text>
+<text x="1126.857142857143" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#F7E4D6 · occupied wash</text>
+<rect x="1339.4285714285716" y="426" width="196.57142857142858" height="80" rx="12" fill="#CF3B30" stroke="#D5DDCF" stroke-width="1"/>
+<text x="1339.4285714285716" y="530" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="650" fill="#18241E" text-anchor="start">alert</text>
+<text x="1339.4285714285716" y="550" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5C6D62" text-anchor="start">#CF3B30 · unread dot</text>
+<text x="64" y="610" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Type</text>
+<rect x="64" y="639" width="720" height="200" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64" y="636" width="720" height="200" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="88" y="700" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="34" font-weight="700" fill="#18241E" text-anchor="start">Bricolage Grotesque</text>
+<text x="88" y="728" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#5C6D62" text-anchor="start">.display — headings and numerals only, tight tracking</text>
+<text x="88" y="784" font-family="Inter, sans-serif" font-size="20" font-weight="400" fill="#18241E" text-anchor="start">Inter for everything else. Rent due on the 5th.</text>
+<text x="88" y="812" font-family="Inter, sans-serif" font-size="13.5" font-weight="400" fill="#5C6D62" text-anchor="start">Sentence case, Indian English, no exclamation marks. Prices via inr(): ₹48,500.</text>
+<text x="816" y="610" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Primitives</text>
+<rect x="816" y="639" width="720" height="200" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="816" y="636" width="720" height="200" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<rect x="840" y="666" width="107" height="42" rx="10" fill="#1E4634"/>
+<text x="893.5" y="692" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Primary</text>
+<rect x="959" y="666" width="89" height="42" rx="10" fill="#CE8A22"/>
+<text x="1003.5" y="692" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Honey</text>
+<rect x="1060" y="666" width="89" height="42" rx="10" fill="#FFFFFF" stroke="#CBD8C6" stroke-width="1"/>
+<text x="1104.5" y="692" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1E4634" text-anchor="middle">Ghost</text>
+<text x="1169" y="692" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#5C6D62" text-anchor="start">Button · LinkButton</text>
+<rect x="840" y="730" width="84.63999999999999" height="25" rx="12.5" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="882.3199999999999" y="745.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E4634" text-anchor="middle">Available</text>
+<rect x="934.64" y="730" width="70.72" height="25" rx="12.5" fill="#F6E7C7" stroke="#F6E7C7" stroke-width="1"/>
+<text x="970.0" y="745.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#CE8A22" text-anchor="middle">Pending</text>
+<rect x="1015.36" y="730" width="63.76" height="25" rx="12.5" fill="#F7E4D6" stroke="#F7E4D6" stroke-width="1"/>
+<text x="1047.24" y="745.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#B15A2B" text-anchor="middle">Rented</text>
+<rect x="1089.12" y="730" width="63.76" height="25" rx="12.5" fill="#F1F4EF" stroke="#F1F4EF" stroke-width="1"/>
+<text x="1121.0" y="745.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#5C6D62" text-anchor="middle">Closed</text>
+<text x="1170.8799999999999" y="748" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="500" fill="#5C6D62" text-anchor="start">StatusPill ok · wait · rented · muted</text>
+<text x="840" y="792" font-family="Inter, sans-serif" font-size="13" font-weight="400" fill="#5C6D62" text-anchor="start">Also: PageHead, SectionTitle, StatCard, EmptyState, Field + inputClass, ErrorNote, Chip, VerifiedBadge,</text>
+<text x="840" y="811" font-family="Inter, sans-serif" font-size="13" font-weight="400" fill="#5C6D62" text-anchor="start">Avatar, Modal, SuccessModal.</text>
+<text x="64" y="900" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Page rules</text>
+<circle cx="68" cy="929.05" r="3" fill="#1E4634"/>
+<text x="80" y="934" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#18241E" text-anchor="start">Every list has an EmptyState with a next action — empty is a state, not a blank area.</text>
+<circle cx="68" cy="957.05" r="3" fill="#1E4634"/>
+<text x="80" y="962" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#18241E" text-anchor="start">Async buttons show a working label (Booking…, Sending…) and disable while busy.</text>
+<circle cx="68" cy="985.05" r="3" fill="#1E4634"/>
+<text x="80" y="990" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#18241E" text-anchor="start">Confirmations use SuccessModal, which carries the &quot;no real money moved&quot; line.</text>
+<circle cx="68" cy="1013.05" r="3" fill="#1E4634"/>
+<text x="80" y="1018" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#18241E" text-anchor="start">Mobile first; the sidebar becomes a drawer under lg. Icons are inline SVG, 24 × 24, currentColor.</text>
+<circle cx="68" cy="1041.05" r="3" fill="#1E4634"/>
+<text x="80" y="1046" font-family="Inter, sans-serif" font-size="15" font-weight="400" fill="#18241E" text-anchor="start">Anything mocked says so where a user would otherwise assume it is real.</text>
+</svg>

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ *
+ * RentEase design tokens (BUILD_BRIEF §6)
+ * ------------------------------------------------------------------ */
+@theme {
+  --color-canvas: #e7ede3;
+  --color-panel: #ffffff;
+  --color-green: #1e4634;
+  --color-green-deep: #153726;
+  --color-green-soft: #eaf1ea;
+  --color-green-line: #cbd8c6;
+  --color-honey: #ce8a22;
+  --color-honey-soft: #f6e7c7;
+  --color-ink: #18241e;
+  --color-muted: #5c6d62;
+  --color-line: #d5ddcf;
+  --color-rented: #b15a2b;
+  --color-alert: #cf3b30;
+  --color-rented-soft: #f7e4d6;
+
+  --radius-card: 14px;
+
+  --shadow-card: 0 1px 2px rgba(21, 55, 38, 0.05),
+    0 8px 24px -12px rgba(21, 55, 38, 0.18);
+
+  --font-display: "Bricolage Grotesque", "Inter", sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background: var(--color-canvas);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  button {
+    font-family: inherit;
+  }
+  :focus-visible {
+    outline: 2.5px solid var(--color-honey);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  /* Native controls inherit the app's type scale */
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    color: inherit;
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  .card {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+  }
+  /* Rise-in used by page transitions */
+  .rise {
+    animation: rise 0.32s ease;
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

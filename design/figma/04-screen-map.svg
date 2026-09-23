@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160">
+<rect x="0" y="0" width="1600" height="1160" fill="#E7EDE3"/>
+<text x="64" y="72" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#CE8A22" text-anchor="start" letter-spacing="1.5">RENTEASE · PROJECT GUIDE</text>
+<text x="64" y="122" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="44" font-weight="700" fill="#18241E" text-anchor="start">Every screen, and who can open it</text>
+<text x="64" y="158" font-family="Inter, sans-serif" font-size="17" font-weight="400" fill="#5C6D62" text-anchor="start">Routes follow whoever owns the data. RequireRole gates owner and renter screens and bounces anyone else to their own home. Shared screens need only a signed-in user.</text>
+<rect x="64" y="243" width="350.0" height="416" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="64" y="240" width="350.0" height="416" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="86" y="280" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Owner</text>
+<rect x="293.44" y="262" width="98.55999999999999" height="25" rx="12.5" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="342.71999999999997" y="277.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E4634" text-anchor="middle">allow owner</text>
+<rect x="80.0" y="310" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="330" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner</text>
+<text x="94.0" y="348" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Overview</text>
+<rect x="80.0" y="366" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="386" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner/listings</text>
+<text x="94.0" y="404" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">My listings</text>
+<rect x="80.0" y="422" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="442" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner/listings/new</text>
+<text x="94.0" y="460" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">New listing</text>
+<rect x="80.0" y="478" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="498" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner/listings/:id/edit</text>
+<text x="94.0" y="516" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Edit listing</text>
+<rect x="80.0" y="534" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="554" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner/requests</text>
+<text x="94.0" y="572" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Requests</text>
+<rect x="80.0" y="590" width="318.0" height="46" rx="10" fill="#EAF1EA"/>
+<text x="94.0" y="610" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/owner/wallet</text>
+<text x="94.0" y="628" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Rent wallet</text>
+<rect x="438.0" y="243" width="350.0" height="304" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="438.0" y="240" width="350.0" height="304" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="460.0" y="280" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Renter</text>
+<rect x="660.48" y="262" width="105.52" height="25" rx="12.5" fill="#F6E7C7" stroke="#F6E7C7" stroke-width="1"/>
+<text x="713.24" y="277.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#CE8A22" text-anchor="middle">allow renter</text>
+<rect x="454.0" y="310" width="318.0" height="46" rx="10" fill="#F6E7C7"/>
+<text x="468.0" y="330" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#CE8A22" text-anchor="start">/renter</text>
+<text x="468.0" y="348" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Discover, or Your home once leased</text>
+<rect x="454.0" y="366" width="318.0" height="46" rx="10" fill="#F6E7C7"/>
+<text x="468.0" y="386" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#CE8A22" text-anchor="start">/renter/search</text>
+<text x="468.0" y="404" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Search (renter and guest)</text>
+<rect x="454.0" y="422" width="318.0" height="46" rx="10" fill="#F6E7C7"/>
+<text x="468.0" y="442" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#CE8A22" text-anchor="start">/renter/tours</text>
+<text x="468.0" y="460" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">My tours</text>
+<rect x="454.0" y="478" width="318.0" height="46" rx="10" fill="#F6E7C7"/>
+<text x="468.0" y="498" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#CE8A22" text-anchor="start">/renter/bookings</text>
+<text x="468.0" y="516" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Bookings &amp; rent</text>
+<rect x="438.0" y="571" width="350.0" height="304" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="438.0" y="568" width="350.0" height="304" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="460.0" y="608" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Public</text>
+<rect x="702.24" y="590" width="63.76" height="25" rx="12.5" fill="#F1F4EF" stroke="#F1F4EF" stroke-width="1"/>
+<text x="734.12" y="605.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#5C6D62" text-anchor="middle">public</text>
+<rect x="454.0" y="638" width="318.0" height="46" rx="10" fill="#F1F4EF"/>
+<text x="468.0" y="658" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#18241E" text-anchor="start">/login</text>
+<text x="468.0" y="676" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Sign in, with one-tap demo accounts</text>
+<rect x="454.0" y="694" width="318.0" height="46" rx="10" fill="#F1F4EF"/>
+<text x="468.0" y="714" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#18241E" text-anchor="start">/register</text>
+<text x="468.0" y="732" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Create an account</text>
+<rect x="454.0" y="750" width="318.0" height="46" rx="10" fill="#F1F4EF"/>
+<text x="468.0" y="770" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#18241E" text-anchor="start">/</text>
+<text x="468.0" y="788" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Redirects to your role&#x27;s home</text>
+<rect x="454.0" y="806" width="318.0" height="46" rx="10" fill="#F1F4EF"/>
+<text x="468.0" y="826" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#18241E" text-anchor="start">*</text>
+<text x="468.0" y="844" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Anything else redirects home</text>
+<rect x="812.0" y="243" width="724.0" height="472" rx="14" fill="#153726" fill-opacity="0.06"/>
+<rect x="812.0" y="240" width="724.0" height="472" rx="14" fill="#FFFFFF" stroke="#D5DDCF" stroke-width="1"/>
+<text x="834.0" y="280" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="22" font-weight="650" fill="#18241E" text-anchor="start">Shared</text>
+<rect x="1366.72" y="262" width="147.27999999999997" height="25" rx="12.5" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="1440.3600000000001" y="277.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E4634" text-anchor="middle">any signed-in user</text>
+<rect x="828.0" y="310" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="330" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/listing/:id</text>
+<text x="842.0" y="348" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Listing detail</text>
+<rect x="828.0" y="366" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="386" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/furniture</text>
+<text x="842.0" y="404" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Furniture</text>
+<rect x="828.0" y="422" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="442" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/decor</text>
+<text x="842.0" y="460" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Festival &amp; décor</text>
+<rect x="828.0" y="478" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="498" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/decoration</text>
+<text x="842.0" y="516" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Decoration ideas</text>
+<rect x="828.0" y="534" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="554" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/services</text>
+<text x="842.0" y="572" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Home services</text>
+<rect x="828.0" y="590" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="610" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/planner</text>
+<text x="842.0" y="628" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Layout planner</text>
+<rect x="828.0" y="646" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="842.0" y="666" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/cart</text>
+<text x="842.0" y="684" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Cart</text>
+<rect x="1180.0" y="310" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="330" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/orders</text>
+<text x="1194.0" y="348" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Orders</text>
+<rect x="1180.0" y="366" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="386" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/rewards</text>
+<text x="1194.0" y="404" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Rewards</text>
+<rect x="1180.0" y="422" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="442" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/notifications</text>
+<text x="1194.0" y="460" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Notifications</text>
+<rect x="1180.0" y="478" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="498" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/account</text>
+<text x="1194.0" y="516" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Account</text>
+<rect x="1180.0" y="534" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="554" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/upgrade</text>
+<text x="1194.0" y="572" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Upgrade</text>
+<rect x="1180.0" y="590" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="610" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/help</text>
+<text x="1194.0" y="628" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">Help &amp; support</text>
+<rect x="1180.0" y="646" width="340.0" height="46" rx="10" fill="#F3F6F1"/>
+<text x="1194.0" y="666" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="#1E4634" text-anchor="start">/about</text>
+<text x="1194.0" y="684" font-family="Inter, sans-serif" font-size="12.5" font-weight="400" fill="#5C6D62" text-anchor="start">About</text>
+<text x="64" y="950" font-family="Bricolage Grotesque, Inter, sans-serif" font-size="24" font-weight="650" fill="#18241E" text-anchor="start">Sidebar, per role</text>
+<rect x="64" y="978" width="56.8" height="25" rx="12.5" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="92.4" y="993.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E4634" text-anchor="middle">Owner</text>
+<text x="170" y="995" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#18241E" text-anchor="start">Overview · My listings · Requests · Rent wallet · Rewards · Furniture &amp; décor · Decoration · Home services</text>
+<rect x="64" y="1018" width="63.76" height="25" rx="12.5" fill="#F6E7C7" stroke="#F6E7C7" stroke-width="1"/>
+<text x="95.88" y="1033.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#CE8A22" text-anchor="middle">Renter</text>
+<text x="170" y="1035" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#18241E" text-anchor="start">Discover (becomes Your home once leased) · Search · My tours · Bookings &amp; rent · Rewards · Furniture &amp; décor · Decoration · Home services · Layout planner</text>
+<rect x="64" y="1058" width="70.72" height="25" rx="12.5" fill="#F7E4D6" stroke="#F7E4D6" stroke-width="1"/>
+<text x="99.36" y="1073.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#B15A2B" text-anchor="middle">Shopper</text>
+<text x="170" y="1075" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#18241E" text-anchor="start">Furniture · Festival &amp; décor · Decoration · Home services · Layout planner · Your history · Rewards · Browse homes</text>
+<rect x="64" y="1098" width="77.67999999999999" height="25" rx="12.5" fill="#EAF1EA" stroke="#EAF1EA" stroke-width="1"/>
+<text x="102.84" y="1113.5" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E4634" text-anchor="middle">Everyone</text>
+<text x="170" y="1115" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#18241E" text-anchor="start">Everyone also gets Help &amp; support and About RentEase under the promo card</text>
+</svg>
